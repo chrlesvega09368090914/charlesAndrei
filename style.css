@@ -1,0 +1,35 @@
+body{ 
+    flex-wrap: wrap;
+
+}
+a.active,a:hover {
+    background: #1b9bff ;
+    transition: .5s;
+
+}
+li a {  
+    color: black;  
+    text-decoration:none; 
+    border-radius: 50px;   
+    line-height: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 50px;
+}
+
+.menu {
+    text-align: center;
+    height: 7px;
+}
+ul{
+    display: -moz-stack;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    font-size: 50px;
+    font-family: cursive;
+    padding: 8px;
+    border-radius: 200px;
+
+}

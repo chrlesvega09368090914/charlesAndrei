@@ -1,0 +1,32 @@
+
+
+.calendar {
+    margin: auto;
+    max-width: 754px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+    border:5px solid black;
+   
+}
+.month{
+    text-align: center;
+    background:none;
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: black;
+    border:2px solid black;
+    flex-wrap: wrap;
+}
+
+
+table, th, td {
+    width: 100px;
+    table-layout:fixed;
+    text-align: center;
+    font-size: 27px;
+    border-collapse: collapse;
+    border:5px solid black;
+    font-family: cursive;
+    
+}
